@@ -14,9 +14,19 @@ html{
     scroll-behavior: smooth;
 }
 
+img{
+    border-top-left-radius: 1;
+}
+
 body{
     background-image: url(/CSS/Nikola-Tesla-Computer-Wallpaper-3389680267.jpg);
+    background-size: cover;
+    background-position: top center;
+    z-index: 1;
+    margin-top: 0;
+    
 }
+
 
 a{
     text-decoration: none;
@@ -41,6 +51,7 @@ a{
     padding: 10px;
     display: inline-block;
     text-decoration: none;
+    
     
 }
 
