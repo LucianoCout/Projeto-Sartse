@@ -18,6 +18,7 @@ body{
     margin: 0;
     height:100%;
     z-index: 1;
+    background-image: url(/Imagens/genio.jpg);
     
 }
 body::after{
@@ -27,12 +28,13 @@ body::after{
     z-index: -1;
 }
 
-
-
-
-a{
-    text-decoration: none;
+#image-content{
+    background-image: url(/Imagens/kuker.jpg);
+    image-resolution: 200px;
+    width: 50%;
+    
 }
+    
 
 #menu-h{
     background-color: rgb(37, 37, 39);
@@ -64,10 +66,10 @@ a{
 
 
 p{
-    color: rgb(16, 4, 96);}
+    color: rgb(223, 221, 234);}
     
 h1{
-    color: rgb(19, 50, 76);
+    color: rgb(223, 229, 234);
     
 }
 
