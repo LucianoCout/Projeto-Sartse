@@ -1,3 +1,4 @@
+/* corpo dapagina */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;500;600&display=swap');
 
 
@@ -20,7 +21,7 @@ body{
 a{
     text-decoration: none;
 }
-
+/* estilo da pagina */
 #menu-h{
     background-color: rgb(37, 37, 39);
 }
@@ -59,7 +60,10 @@ h1{
     color: aliceblue;
     
 }
-
+/* rodapé da pagina */
+footer{
+    color: red;
+}
 
 
 
