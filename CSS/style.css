@@ -14,8 +14,21 @@ html{
 }
 
 body{
-    background-image: url(/Nikola-Tesla-Computer-Wallpaper-3389680267.jpg);
+    background-color: bisque;
+    margin: 0;
+    height:100%;
+    z-index: 1;
+    
 }
+body::after{
+    content: ();
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+
+
 
 a{
     text-decoration: none;
@@ -33,6 +46,7 @@ a{
 
 #menu-h ul li{
     display: inline;
+    margin: 0 0 0 20px;  
 }
 
 #menu-h ul li a {
@@ -50,16 +64,21 @@ a{
 
 
 p{
-    color: #FFF;
-    background-color: black;
-}
+    color: rgb(16, 4, 96);}
+    
 h1{
-    color: aliceblue;
+    color: rgb(19, 50, 76);
     
 }
 
 footer{
-    color: blanchedalmond;
+    color: rgb(181, 139, 77);
+    background-color: black;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    
 }
 
 
